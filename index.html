@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>admap.lk — Find prices for products & services near you, Sri Lanka</title>
+<meta name="description" content="Search verified product and service prices by location across Sri Lanka. Post an ad free, browse by category or city.">
+<link rel="canonical" href="https://admap.lk/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "admap.lk",
+  "url": "https://admap.lk/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://admap.lk/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"How does admap.lk decide which listing is the best price?",
+     "acceptedAnswer":{"@type":"Answer","text":"Listings show the seller's asking price and location side by side, so you can compare price per unit or per job across sellers in the same city before contacting anyone."}},
+    {"@type":"Question","name":"Is it free to post an ad on admap.lk?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes, posting a listing is free. Phone numbers are verified by a call before a listing goes live."}}
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="site-inner">
+    <a class="logo" href="/">admap<span>.lk</span></a>
+    <a class="post-link" href="/post-ad.html">Post an ad — free</a>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero">
+    <h1>Find the price before you call</h1>
+    <p>Compare product and service prices by city across Sri Lanka. Every listing shows a verified phone number and exact location.</p>
+    <form class="search-box" action="/search" method="get">
+      <input type="text" name="q" placeholder="What are you looking for? e.g. AC repair">
+      <select name="location">
+        <option value="">All locations</option>
+        <option value="negombo">Negombo</option>
+        <option value="gampaha">Gampaha</option>
+        <option value="colombo">Colombo</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <div class="ad-slot">AD SLOT — leaderboard (728×90 / responsive)</div>
+
+  <h2 class="section-title">Browse by category</h2>
+  <div class="card-grid">
+    <a class="cat-card" href="/category/ac-repair/"><div class="name">AC Repair</div><div class="count">Service</div></a>
+    <a class="cat-card" href="/category/vehicles/"><div class="name">Vehicles</div><div class="count">Product</div></a>
+    <a class="cat-card" href="/category/electricians/"><div class="name">Electricians</div><div class="count">Service</div></a>
+    <a class="cat-card" href="/category/furniture/"><div class="name">Furniture</div><div class="count">Product</div></a>
+    <a class="cat-card" href="/category/plumbers/"><div class="name">Plumbers</div><div class="count">Service</div></a>
+    <a class="cat-card" href="/category/land/"><div class="name">Land</div><div class="count">Product</div></a>
+  </div>
+
+  <h2 class="section-title">Browse by location</h2>
+  <div class="card-grid">
+    <a class="loc-card" href="/location/negombo/"><div class="name">Negombo</div><div class="count">Gampaha District</div></a>
+    <a class="loc-card" href="/location/gampaha/"><div class="name">Gampaha</div><div class="count">Gampaha District</div></a>
+    <a class="loc-card" href="/location/colombo/"><div class="name">Colombo</div><div class="count">Western Province</div></a>
+  </div>
+
+  <h2 class="section-title">Recently listed</h2>
+  <div class="card-grid">
+    <a class="r-card" href="/listing/ac-repair-gas-refill-negombo-1.html">
+      <div class="title">AC repair &amp; gas refill</div>
+      <div class="price">Rs. 3,500 / hour</div>
+      <div class="loc">Negombo</div>
+    </a>
+  </div>
+
+  <div class="ad-slot">AD SLOT — footer banner</div>
+
+  <footer class="site">© admap.lk — listing data structured for search &amp; AI answer engines</footer>
+</div>
+
+</body>
+</html>

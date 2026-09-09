@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://admap.lk/sitemap.xml

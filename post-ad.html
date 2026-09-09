@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post a free ad — admap.lk</title>
+<meta name="description" content="List your product or service price with location on admap.lk. Free, phone verified before it goes live.">
+<link rel="canonical" href="https://admap.lk/post-ad.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="site-inner">
+    <a class="logo" href="/">admap<span>.lk</span></a>
+    <span class="post-link" style="color:var(--ink-dim);">Post an ad</span>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="crumb"><a href="/">Home</a> &rsaquo; Post an ad</nav>
+
+  <h1 class="listing-title" style="margin-top:14px;">Post a free ad</h1>
+  <p style="color:var(--ink-dim);max-width:56ch;">We call to verify your phone number before the listing goes live — usually within a day.</p>
+
+  <form class="form-panel" id="ad-form">
+    <label>Listing type</label>
+    <select name="type">
+      <option value="Service">Service</option>
+      <option value="Product">Product</option>
+    </select>
+
+    <label>Title</label>
+    <input type="text" name="title" placeholder="AC repair & gas refill" required>
+
+    <label>Category</label>
+    <select name="category">
+      <option>AC Repair</option>
+      <option>Vehicles</option>
+      <option>Electricians</option>
+      <option>Furniture</option>
+      <option>Plumbers</option>
+      <option>Land</option>
+    </select>
+
+    <label>City</label>
+    <input type="text" name="city" placeholder="Negombo" required>
+
+    <label>Price (LKR)</label>
+    <input type="number" name="price" placeholder="3500" required>
+
+    <label>Description</label>
+    <textarea name="description" placeholder="What you offer, coverage area, availability..."></textarea>
+
+    <label>Your phone number</label>
+    <input type="tel" name="phone" placeholder="0771234567" required>
+
+    <button type="submit">Submit for verification</button>
+  </form>
+
+  <div class="ad-slot" style="max-width:560px;">AD SLOT — below form</div>
+
+  <footer class="site">© admap.lk — listing data structured for search &amp; AI answer engines</footer>
+</div>
+
+<script>
+  // Placeholder handler — wire this to your backend / form service (e.g. a serverless
+  // function, Google Sheets via Apps Script, or Formspree) before going live.
+  document.getElementById('ad-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    alert('Form UI only — connect this to your backend or a form service to receive submissions.');
+  });
+</script>
+
+</body>
+</html>
